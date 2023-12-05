@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <style>
+        .image-cover{
+            margin-top: 100px;
+            background-image: url('../images/cover.png');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 362px;
+            color: #FFF;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        .content{
+            padding: 100px 100px 100px 100px;
+            background-color: white;
+            margin-top: 0;
+        }
+        .content p{
+            color: #000;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        .content ul li{
+            color: #000;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        .footer{
+            background-color: #EEE;
+            padding: 150px 120px 0px 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="menu-left"><a href="./ayobelajar.html"><&nbsp;&nbsp;&nbsp;&nbsp;Kembali</a></div>
+        <div class="menu-right">
+            <a href="./index.html" class="menu-link">Home</a>
+            <a href="./learn.html" class="menu-link active">Learn</a>
+            <a href="./simulasihome.html" class="menu-link">Simulation</a>
+            <a href="./dodont.html" class="menu-link">Do & Don't</a>
+        </div>
+    </div>
+    <div class="image-cover">
+        Contoh Use Case Diagram
+    </div>
+    <div class="content">
+        <p>
+            Berikut contoh dari use case diagram beserta penjelasannya:
+        </p>
+
+        <p>
+            Pembayaran OVO
+        </p>
+        <center style="margin: 100px 0">
+            <img src="../images/contohuml.png">
+        </center>
+        <p>
+            OVO adalah aplikasi pintar yang memberikan kemudahan dalam bertransaksi (OVO Cash), serta berfungsi untuk mengumpulkan poin di banyak tempat (OVO Points). Inilah contoh use case diagram studi kasus pada OVO.
+        </p>
+        
+        <p>
+            Gambar di atas merupakan contoh use case diagram pada OVO, adapun penjelasannya sebagai berikut ini:
+        </p>
+        
+        <ul>
+            <li>
+                User: Orang yang dapat mengakses atau menggunakan aplikasi OVO, mulai dari login ke aplikasi hingga melakukan aksi terhadap aplikasi seperti top up saldo, transfer, dan payment.
+            </li>
+            <li>
+                Register: Register merupakan langkah pertama yang dilakukan user ketika ia tidak mempunyai akses pada aplikasi OVO. Mendaftarkan data diri ke dalam aplikasi agar dikenali.
+            </li>
+            <li>
+
+                Login: Setelah mendapatkan akun, user harus melakukan login agar dapat mengakses berbagai fitur aplikasi OVO.
+            </li>
+            <li>
+
+                Top up: Suatu kegiatan yang dilakukan user untuk mengisi ulang saldo OVO. Terdapat 2 pilihan alternatif untuk melakukan top up saldo, yaitu melalui ATM dan internet banking.
+            </li>
+            <li>
+                Transfer: Transfer berfungsi untuk mengirim atau membagikan saldo dalam aplikasi OVO ke pengguna lain, baik sesama OVO atau ke rekening tertentu.
+            </li>
+            <li>
+                Payment: Ketika user memilih menu payment, maka user dapat melakukan pembayaran lewat aplikasi.
+            </li> 
+        </ul>
+        <p>
+            Mesin ATM
+        </p>
+        <center style="margin: 100px 0">
+            <img src="../images/contohuml2.png">
+        </center>
+        <p>
+            Aktor yang terlibat: Nasabah, Pihak Bank, dan Operator ATM.
+        </p>
+        <p>
+            Use Case yang ada: session, transaksi, transfer, Tarik tunai, cek saldo, system startup, dan system shutdown. Di bawah ini beberapa penjelasan lengkap dari use case tersebut:
+        </p>
+        
+        <ul>
+            <li>
+                System Startup: Sistem ini akan dihidupkan oleh operator ketika mengarahkan switch ke posisi “ON”. Operator akan memasukkan sejumlah uang yang tersedia pada brankas ATM sehingga mesin pun dapat terkoneksi ke bank dan nasabah dapat melakukan berbagai transaksi pada mesin ATM.
+            </li>
+            <li>
+                System Shutdown: Sistem akan dimatikan ketika operator sudah memastikan bahwa tidak ada lagi nasabah yang menggunakan mesin dan biasanya ketika akan melakukan maintenance. Caranya dengan mengarahkan switch ke posisi “OFF”.
+            </li>
+            <li>
+                Session: Session akan dimulai ketika nasabah memasukan kartu ATM ke mesin ATM sampai kartu ATM di cabut dari mesin ATM.
+            </li>
+            <li>
+                Transaksi: Transaksi yang meliputi transfer, tarik tunai, dan cek saldo.
+            </li>
+            <li>
+                Transfer: Transfer terbagi menjadi dua, yaitu transfer antar sesama bank atau berbeda bank. Jika transfer berbeda bank, maka diperlukan memasukan kode bank tujuan.
+            </li>
+            <li>
+                Cek Saldo: Cek saldo berfungsi untuk mendapatkan suatu informasi pada rekening seorang nasabah terkait saldo yang dimiliki
+            </li> 
+        </ul>
+        <!-- didieu tinggal tambahan div row jeung col na 12 kabeh jang nu learn, simulation, do and don't -->
+    </div>
+    <!-- <div class="footer">
+        <div class="row">
+            <div class="col-md-6" style="align-self: center;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span style="color: #000;
+                        font-size: 64px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;">Sudah tahu apa itu <br/> Use Case Diagram?</span>
+                    </div>
+                    <div class="col-md-12 mb-4">
+                        <span style="font-size: 24px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: -0.243px;">Ayo lakukan evaluasi kemampuan kamu mengenai materi yang baru saja kamu pelajari.  </span> 
+                    </div>
+                    <div class="col-md-12">
+                        <div class="btn btn-lg" style="border-radius: 28.452px;
+                        background: #0D739F;
+                        box-shadow: 0px 3.2517px 16.2585px 0px rgba(12, 47, 90, 0.10);color: white">
+                        Next Page</div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" style="text-align: right;">
+                <img src="../images/footer.png" style="width: 348px;
+                height: 579px;">
+            </div>
+        </div>
+    </div> -->
+</body>
+</html>

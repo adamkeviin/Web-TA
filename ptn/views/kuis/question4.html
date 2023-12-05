@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/custom.css">
+    <style>
+        .paging{
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+        .button-pagging{
+            background-color: transparent;
+            border: 2px solid black;
+            color: black;
+        }
+        .button-pagging.active{
+            background-color: #0D739F;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="menu-left"><button style="background-color: transparent;border: none;" data-toggle="modal" data-target="#back"><&nbsp;&nbsp;&nbsp;&nbsp;Kembali</button></div>
+        <div class="menu-right">
+            <a href="../index.html" class="menu-link">Home</a>
+            <a href="../learn.html" class="menu-link active">Learn</a>
+            <a href="../simulasihome.html" class="menu-link">Simulation</a>
+            <a href="../dodont.html" class="menu-link">Do & Don't</a>
+        </div>
+    </div>
+    <div class="content">
+        <!-- didieu tinggal tambahan div row jeung col na 12 kabeh jang nu learn, simulation, do and don't -->
+        <div class="row">
+            <div class="col-md-12 mb-5" style="color: #000;font-family: Karla;font-size: 48px;font-style: normal;font-weight: 500;line-height: normal;">
+                <span>Kuis Materi Umum Use Case Diagram</span>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <span style="font-size: 24px;font-style: normal;font-weight: 700;line-height: normal;">Question 1</span>
+                    </div>
+                    <div class="col-md-12">
+                        <span style="font-size: 24px;font-style: normal;font-weight: 400;">Marked out of 100</span>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="paging">
+                            <button style="padding: 8px" class="button-pagging active">1</button>
+                            <button style="padding: 8px" class="button-pagging active">2</button>
+                            <button style="padding: 8px" class="button-pagging active">3</button>
+                            <button style="padding: 8px" class="button-pagging">4</button>
+                            <button style="padding: 8px" class="button-pagging">5</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9" style="margin-bottom: 20px;">
+
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card" style="padding: 36px 40px;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12" style="margin-bottom: 30px;">
+                                        <div class="card">
+                                            <div class="card-body" style="background-color: rgba(238, 238, 238, 0.93);border-radius: 5px;">
+                                                <span style="font-size: 24px;font-style: normal;font-weight: 400;line-height: normal;"> Untuk menampilkan setiap fungsi website secara lebih mendetail. Sehingga, developer dapat lebih mudah memprogram website. Yang dimana ini termasuk fungsi Use Case Diagram bagian yang mana?</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="margin-bottom: 30px;">
+                                        <div class="col-md-12">
+                                            <span style="font-size: 24px;font-style: normal;font-weight: 400;">Select One</span> 
+                                        </div>
+                                        
+                                        <div class="col-md-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" style="margin-top: 0.8rem;" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                                <label class="form-check-label" for="exampleRadios1" style="font-size: 24px;font-style: normal;font-weight: 400;">
+                                                    Merincikan Kebutuhan Pengguna
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" style="margin-top: 0.8rem;" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                <label class="form-check-label" for="exampleRadios2" style="font-size: 24px;font-style: normal;font-weight: 400;">
+                                                    Memvalidasi pengujian system
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" style="margin-top: 0.8rem;" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                                <label class="form-check-label" for="exampleRadios1" style="font-size: 24px;font-style: normal;font-weight: 400;">
+                                                    Membatu komunikasi antar tim
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" style="margin-top: 0.8rem;" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                <label class="form-check-label" for="exampleRadios2" style="font-size: 24px;font-style: normal;font-weight: 400;">
+                                                    Dapat memfasilitasi stakeholder dengan baik
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6" style="margin-bottom: 10px;">
+                        <a href="./question3.html">
+                            <button class="btn btn-lg" style="border-radius: 28.452px;
+                            background: #0D739F;
+                            box-shadow: 0px 3.2517px 16.2585px 0px rgba(12, 47, 90, 0.10);color: white">
+                                Previous Page
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-md-6" style="margin-bottom: 10px; text-align: right;">
+                        <a href="./question5.html">
+                            <button class="btn btn-lg" style="border-radius: 28.452px;
+                            background: #0D739F;
+                            box-shadow: 0px 3.2517px 16.2585px 0px rgba(12, 47, 90, 0.10);color: white">
+                                Next Page
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="back" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xs" role="document">
+          <div class="modal-content">
+            <div class="modal-body" style="padding: 50px;">
+                <div class="row">
+                    <div class="col-md-12 mb-1" style="text-align: center;">
+                        <span style="font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: -0.243px;">Apakah Anda Yakin untuk Kembali?</span>
+                    </div>
+                    <div class="col-md-12 mb-5" style="text-align: center;">
+                        <span style="font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20.282px;
+                        letter-spacing: -0.243px;
+                        ">Jika Anda yakin untuk kembali. Kuis yang Anda telah isi, jawabannya akan hilang atau ulang dari awal lagi. </span>
+                    </div>
+                    <div class="col-md-6" style="text-align: center;">
+                        <a href="../what.html">
+                            <button style="border-radius: 20px;
+                            border: 1px solid #000000;width: 100%;padding: 10px;
+                            box-shadow: 0px 4px 20px 0px rgba(12, 47, 90, 0.10);
+                            ">Ya</button>
+                        </a> 
+                    </div>
+                    <div class="col-md-6" style="text-align: center;">
+                        <a href="../kuis/question4.html">
+                            <button style="border-radius: 20px;
+                            background: #0D739F;width: 100%;padding: 10px;color: white;
+                            box-shadow: 0px 4px 20px 0px rgba(12, 47, 90, 0.10);
+                            ">Tidak</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+</html>
